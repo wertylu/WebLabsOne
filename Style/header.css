@@ -1,0 +1,120 @@
+header{
+    margin: 0 auto;
+    width: 96vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-bottom: 1vw;
+    padding-top: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+header nav{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    width: 95vw;
+    height: 5vh;
+
+}
+
+header ul{
+    display: flex;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.header__nav-item{
+    color: #B8BECD;
+    margin-right: 2.125rem;
+}
+
+li{
+    display: inline-block;
+}
+
+header a{
+    text-decoration: none;
+    color: #B8BECD;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border-radius: 4px;
+    line-height: 40px;
+    padding: 0 10px;
+
+}
+
+.home{
+    color: black;
+}
+
+.non-home{
+    transition-duration: 0.5s;
+}
+
+.non-home:hover{
+    color: black;
+}
+
+header .logo{
+    display: flex;
+    position: absolute;
+
+}
+
+.login-register{
+    position: absolute;
+    right: 0;
+
+}
+
+.button{
+    margin-left: 20px;
+    border: none;
+    color: white;
+    width: 8vw;
+    height: 3vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 1s;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 1vw;
+}
+
+.login{
+    background-color: white;
+    color: #FB8F1D;
+    border: 2px solid #FB8F1D;
+}
+
+.login:hover{
+    color: white;
+    background-color: coral;
+}
+
+.register{
+    background-color: #FB8F1D;
+    color: white;
+    border: 2px solid #FB8F1D;
+
+}
+
+.register:hover{
+    color: coral;
+    background-color: white;
+}
+
+.circle{
+    position: absolute;
+}

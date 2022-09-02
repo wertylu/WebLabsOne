@@ -2,45 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Laboratory</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap"
-          rel="stylesheet">
-    <link rel="stylesheet" href="Style/style.css">
+    <title>Lab 2</title>
 </head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+
+<link rel="stylesheet" type="text/css" href="Style/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Mulish:wght@200;300&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
 <body>
-    <div class="container">
-        <header class="header">
-            <nav class="header__nav">
-                <ul>
-                    <li class="header__nav-item"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="home">Home</a></li>
-                    <li class="header__nav-item"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="non-home">Destinations</a></li>
-                    <li class="header__nav-item"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="non-home">About</a></li>
-                    <li class="header__nav-item"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="non-home">Partner</a></li>
-                </ul>
-            </nav>
-            <div class="header-title">
-                <svg viewBox="0 0 10 10" width=50px class="circle">
-                    <script/>
-                    <circle cx="5" cy="5" r="3.7" stroke-width="2" stroke="#1ABE84" fill="#fff"/>
-                    <circle cx="5" cy="5" r="2" fill="#FB8F1D"/>
-                </svg>
-            </div>
-            <div >
+    <header>
+        <a class="logo" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">
+            <svg viewBox="0 0 10 10" width="3vw">
+                <circle cx="5" cy="5" r="3.7" stroke-width="2" stroke="#1ABE84" fill="#fff"/>
+                <circle cx="5" cy="5" r="2" fill="#FB8F1D"/>
+            </svg>
+        </a>
+
+        <nav>
+            <ul>
+                <li class="header__nav-item"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="home">Home</a></li>
+                <li class="header__nav-item"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="non-home">Destinations</a></li>
+                <li class="header__nav-item"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="non-home">About</a></li>
+                <li class="header__nav-item"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="non-home">Partner</a></li>
+            </ul>
+
+            <div class="login-register" >
                 <button class="button login">Login</button>
                 <button class="button register">Register</button>
             </div>
-        </header>
-    </div>
+        </nav>
+        <div class="hamburger-menu-wrapper">
+            <div class="hamburger-menu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </header>
+
+
+
     <div class="container-top">
         <div class="filling">
             <h1 class="top-header">Guides by Thousand<br>Sunny</h1>
-            <p class="top-text">Packed with tips and advice from our on-the-ground<br>
-                experts, our city guides app (iOS and Android) is the<br>
+            <p class="top-text">Packed with tips and advice from our on-the-ground
+                experts, our city guides app (iOS and Android) is the
                 ultimate resource before and during a trip.</p>
             <button class="download-button">Download</button>
         </div>
-        <img src="../WebLabsOne/images/Thousand.png" alt="a potoo" class="photo-top">
+        <img src="../WebLabsOne/images/Thousand.png" alt="photo" class="photo-top">
     </div>
+
+
+
     <div class="testimonials">
         <div class="testimonials-text">
             <div class="testimonials-header">
@@ -49,29 +68,19 @@
             <div class="testimonials-filling">
                 <ul class="stars">
                     <li class="star">
-                        <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12.5853 20.0488L18.5853 23.7073C19.7561 24.439 21.0731 23.4146 20.7805 22.0976L19.1707 15.2195L24.5853 10.5366C25.6097 9.65854 25.0244 8.04878 23.7073 7.90244L16.6829 7.31707L13.9024 0.878049C13.317 -0.292683 11.7073 -0.292683 11.1219 0.878049L8.34143 7.46341L1.31704 8.04878C-3.36803e-05 8.04878 -0.439058 9.65854 0.438991 10.5366L5.85362 15.2195L4.24387 22.0976C3.95119 23.4146 5.26826 24.2927 6.43899 23.7073L12.5853 20.0488Z" fill="#FFBB0C"/>
-                        </svg>
+                        <img src="images/star.svg" alt="star" class="str">
                     </li>
                     <li class="star">
-                        <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12.5853 20.0488L18.5853 23.7073C19.7561 24.439 21.0731 23.4146 20.7805 22.0976L19.1707 15.2195L24.5853 10.5366C25.6097 9.65854 25.0244 8.04878 23.7073 7.90244L16.6829 7.31707L13.9024 0.878049C13.317 -0.292683 11.7073 -0.292683 11.1219 0.878049L8.34143 7.46341L1.31704 8.04878C-3.36803e-05 8.04878 -0.439058 9.65854 0.438991 10.5366L5.85362 15.2195L4.24387 22.0976C3.95119 23.4146 5.26826 24.2927 6.43899 23.7073L12.5853 20.0488Z" fill="#FFBB0C"/>
-                        </svg>
+                        <img src="images/star.svg" alt="star" class="str">
                     </li>
                     <li class="star">
-                        <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12.5853 20.0488L18.5853 23.7073C19.7561 24.439 21.0731 23.4146 20.7805 22.0976L19.1707 15.2195L24.5853 10.5366C25.6097 9.65854 25.0244 8.04878 23.7073 7.90244L16.6829 7.31707L13.9024 0.878049C13.317 -0.292683 11.7073 -0.292683 11.1219 0.878049L8.34143 7.46341L1.31704 8.04878C-3.36803e-05 8.04878 -0.439058 9.65854 0.438991 10.5366L5.85362 15.2195L4.24387 22.0976C3.95119 23.4146 5.26826 24.2927 6.43899 23.7073L12.5853 20.0488Z" fill="#FFBB0C"/>
-                        </svg>
+                        <img src="images/star.svg" alt="star" class="str">
                     </li>
                     <li class="star">
-                        <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12.5853 20.0488L18.5853 23.7073C19.7561 24.439 21.0731 23.4146 20.7805 22.0976L19.1707 15.2195L24.5853 10.5366C25.6097 9.65854 25.0244 8.04878 23.7073 7.90244L16.6829 7.31707L13.9024 0.878049C13.317 -0.292683 11.7073 -0.292683 11.1219 0.878049L8.34143 7.46341L1.31704 8.04878C-3.36803e-05 8.04878 -0.439058 9.65854 0.438991 10.5366L5.85362 15.2195L4.24387 22.0976C3.95119 23.4146 5.26826 24.2927 6.43899 23.7073L12.5853 20.0488Z" fill="#FFBB0C"/>
-                        </svg>
+                        <img src="images/star.svg" alt="star" class="str">
                     </li>
                     <li class="star">
-                        <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12.5853 20.0488L18.5853 23.7073C19.7561 24.439 21.0731 23.4146 20.7805 22.0976L19.1707 15.2195L24.5853 10.5366C25.6097 9.65854 25.0244 8.04878 23.7073 7.90244L16.6829 7.31707L13.9024 0.878049C13.317 -0.292683 11.7073 -0.292683 11.1219 0.878049L8.34143 7.46341L1.31704 8.04878C-3.36803e-05 8.04878 -0.439058 9.65854 0.438991 10.5366L5.85362 15.2195L4.24387 22.0976C3.95119 23.4146 5.26826 24.2927 6.43899 23.7073L12.5853 20.0488Z" fill="#FFBB0C"/>
-                        </svg>
+                        <img src="images/star.svg" alt="star" class="str">
                     </li>
                 </ul>
                 <p class="testimonials-testimony">“Quisque in lacus a urna fermentum<br>
@@ -84,45 +93,49 @@
         </div>
         <img src="../WebLabsOne/images/image 6.png" alt="who" class="testimonials-giver">
     </div>
+
+
+
     <div class="trending">
         <div class="trending-head">
             <h2 class="trending-stories">Trending stories</h2>
-            <a class="view-all" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">view all
-                <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 1L5 5.5L1 10" stroke="#FB8F1D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
+            <a class="view-all" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">View all
+                <img src="images/row.svg" alt="s" class="row">
             </a>
         </div>
         <div class="trending-main">
             <div class="block-1">
                 <img alt="a" src="../WebLabsOne/images/image 12.png" class="img-trending">
-                <h3>The many benefits of<br>
+                <h3 class="trending-headline">The many benefits of<br>
                     taking a healing holiday</h3>
                 <p class="fillings">‘Helaing holidays’ are on the rise<br>
                     tohelp maximise your health and<br> happines...<br><br></p>
                 <a class="read-more" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Read more</a>
             </div>
+
             <div class="block-1">
                 <img alt="a" src="../WebLabsOne/images/image 13.png" class="img-trending">
-                <h3>The best Kyoto restaurant<br>
+                <h3 class="trending-headline">The best Kyoto restaurant<br>
                     to try Japanese food</h3>
                 <p class="fillings">From tofu to teahouses, here’s our<br>
                     guide to Kyoto’s best restaurants<br>
                     to visit...<br><br></p>
                 <a class="read-more" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Read more</a>
             </div>
+
             <div class="block-1">
                 <img alt="a" src="../WebLabsOne/images/image 14.png" class="img-trending">
-                <h3>Skip Chichen Itza and head<br>
+                <h3 class="trending-headline">Skip Chichen Itza and head<br>
                     to this remote Yucatan</h3>
                 <p class="fillings">It’s remote and challenging to get,<br>
                     but braving the jungle and exploring<br>
                     these ruins without the...<br><br></p>
                 <a class="read-more" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Read more</a>
             </div>
+
             <div class="block-1">
                 <img alt="a" src="../WebLabsOne/images/image 15.png" class="img-trending">
-                <h3>Surf’s up at these beginner<br>
+                <h3 class="trending-headline">Surf’s up at these beginner<br>
                     spots around the world</h3>
                 <p class="fillings">If learning to surf has in on your to-<br>
                     do list for a while, the good news<br>
@@ -131,9 +144,12 @@
             </div>
         </div>
     </div>
+
+
+
     <footer>
         <div class="top-footer">
-            <svg viewBox="0 0 10 10" width=40px class="circle-bot">
+            <svg viewBox="0 0 10 10" width=2.5vw class="circle-bot">
                 <script/>
                 <circle cx="5" cy="5" r="3.7" stroke-width="2" stroke="#1ABE84" fill="#fff"/>
                 <circle cx="5" cy="5" r="2" fill="#FB8F1D"/>
@@ -142,8 +158,8 @@
 
         </div>
         <div class="strikethrough">
-            <svg width="1500" height="20" class="wtf">
-                <rect width="1500" height="1" style="fill:#C4C4C4;stroke-width:0;stroke:#C4C4C4" />
+            <svg width="95vw" height="20" class="wtf">
+                <rect width="95vw" height="1" style="fill:#C4C4C4;stroke-width:0;stroke:#C4C4C4" />
             </svg>
         </div>
         <div class="social-media">
@@ -151,19 +167,18 @@
                 <img src="../WebLabsOne/images/Frame (2).svg" class="icon" alt="">
             </a>
             <a href="#" class="link">
-                <img src="../WebLabsOne/images/Frame (1).svg" alt="">
+                <img src="../WebLabsOne/images/Frame (1).svg" class="icon" alt="">
             </a>
             <a href="#" class="link">
-                <img src="../WebLabsOne/images/Frame.svg" alt="">
+                <img src="../WebLabsOne/images/Frame.svg" class="icon" alt="">
             </a>
             <a href="#" class="link">
-                <img src="../WebLabsOne/images/Frame (3).svg" alt="">
+                <img src="../WebLabsOne/images/Frame (3).svg" class="icon" alt="">
             </a>
-            <a href="#" class="link">
-                <img src="../WebLabsOne/images/Frame (4).svg" alt="">
+            <a href="#" class="link youtube">
+                <img src="../WebLabsOne/images/Frame (4).svg" class="icon" alt="">
             </a>
         </div>
     </footer>
-
 </body>
 </html>

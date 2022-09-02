@@ -1,0 +1,49 @@
+footer{
+    margin: 0 auto;
+    background-color: #F8F8F8;
+}
+
+.top-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-footer{
+
+}
+
+.all-rights-reserved{
+
+}
+
+.circle-bot{
+    margin-left: 5vw;
+}
+
+.strikethrough{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media{
+    display:flex;
+    justify-content: center;
+}
+
+.link{
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+
+.all-rights-reserved{
+    margin-right: 5vw;
+}
+
+.fillings{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #7D7987;
+}

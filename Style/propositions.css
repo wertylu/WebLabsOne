@@ -1,0 +1,63 @@
+.trending{
+    max-width: 90vw;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 150px;
+}
+
+a{
+    text-decoration: none;
+}
+.trending-head{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.trending-main{
+    display:flex;
+    justify-content: space-between;
+}
+
+.trending-stories{
+
+}
+
+.trending-headline{
+    max-width: 20vw;
+}
+
+.fillings{
+    max-width: 20vw;
+}
+
+.view-all{
+    display:flex;
+    align-items: center;
+    color: #FB8F1D;
+    margin-right: 0.2vw;
+}
+
+.block-1{
+
+}
+
+.img-trending{
+    width: 20vw;
+    height: 20vw;
+    padding-bottom: 9px;
+    border-radius: 1vw;
+}
+
+.read-more{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FB8F1D;
+    text-decoration: none;
+}
+
+.row{
+    width: 1vw;
+    height: 1vw;
+}

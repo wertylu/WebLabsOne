@@ -1,0 +1,232 @@
+@media screen and (min-width: 3840px){
+    /*HEADER*/
+    header{
+        padding-top: 40px;
+    }
+    header ul{
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    header a{
+        font-weight: 400;
+        font-size: 40px;
+        border-radius: 15px;
+        line-height: 50px;
+        padding: 0 30px;
+    }
+
+    .button{
+        font-size: 50px;
+        width: 7vw;
+        height: 2.5vw;
+        border-radius: 0.5vw;
+    }
+    /*HEADLINER*/
+    .container-top{
+        margin-top: 200px;
+    }
+
+    .top-header{
+        font-weight: 700;
+        font-size: 90px;
+    }
+
+    .top-text {
+        font-weight: 300;
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .download-button{
+        width: 8vw;
+        height: 2.5vw;
+        font-size: 35px;
+        border-radius: 0.8vw;
+    }
+
+    /*TESTIMONIALS*/
+    .testimonials{
+        margin-bottom: 200px;
+        margin-top: 400px;
+    }
+
+    .testimonials-head{
+        font-size: 100px;
+    }
+
+    .testimonials-testimony {
+        font-size: 70px;
+        line-height: 90px;
+    }
+
+    .testimonials-author{
+        font-size: 65px;
+        line-height: 90px;
+    }
+
+    .testimonials-author-who{
+        font-size: 60px;
+        line-height: 90px;
+    }
+
+    .testimonials-giver{
+        margin-top: 150px;
+    }
+
+    /*PROPOSITIONS*/
+
+    .trending-stories{
+        font-size: 70px;
+    }
+
+    .view-all{
+        font-size: 50px;
+    }
+
+    .trending-headline{
+       font-size: 60px;
+    }
+
+    .fillings{
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .read-more{
+        font-size: 40px;
+    }
+    .img-trending{
+        padding-bottom: 20px;
+        border-radius: 0.5vw;
+
+    }
+
+    /*FOOTER*/
+
+    .all-rights-reserved{
+        font-size: 40px;
+    }
+
+    .icon{
+       width: 1.5vw;
+       height: 1.5vw;
+    }
+
+
+}
+
+@media screen and (min-width: 2000px) and (max-width: 3839px){
+    /*HEADER*/
+    header{
+        padding-top: 30px;
+    }
+    header ul{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    header a{
+        font-weight: 400;
+        font-size: 30px;
+        border-radius: 15px;
+        line-height: 40px;
+        padding: 0 30px;
+    }
+
+    .button{
+        font-size: 25px;
+        width: 7vw;
+        height: 2.5vw;
+        border-radius: 0.7vw;
+    }
+    /*HEADLINER*/
+    .container-top{
+        margin-top: 200px;
+    }
+
+    .top-header{
+        font-weight: 600;
+        font-size: 50px;
+    }
+
+    .top-text {
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .download-button{
+        width: 8vw;
+        height: 2.5vw;
+        font-size: 20px;
+        border-radius: 0.8vw;
+    }
+
+    /*TESTIMONIALS*/
+    .testimonials{
+        margin-bottom: 150px;
+        margin-top: 300px;
+    }
+
+    .testimonials-head{
+        font-size: 60px;
+    }
+
+    .testimonials-testimony {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .testimonials-author{
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .testimonials-author-who{
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .testimonials-giver{
+        margin-top: 20px;
+    }
+
+    /*PROPOSITIONS*/
+
+    .trending-stories{
+        font-size: 50px;
+    }
+
+    .view-all{
+        font-size: 35px;
+    }
+
+    .trending-headline{
+        font-size: 30px;
+    }
+
+    .fillings{
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .read-more{
+        font-size: 20px;
+    }
+
+    /*FOOTER*/
+
+    .all-rights-reserved{
+        font-size: 20px;
+    }
+
+    .icon{
+        width: 1.5vw;
+        height: 1.5vw;
+    }
+
+
+}
