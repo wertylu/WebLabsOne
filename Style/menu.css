@@ -1,0 +1,23 @@
+.hamburger{
+    padding-top:10px ;
+    display:block;
+    cursor: pointer;
+    right:0;
+    justify-content: flex-end;
+    margin-left: 90vw;
+    margin-right: 10px;
+}
+
+.bar{
+    display:block;
+    width: 30px;
+    height: 3px;
+    border-radius: 1px;
+    margin-bottom: 4px;
+    -webkit-transition: all .4s ease-in-out;
+    transition: .4s ease-in-out;
+    background-color: #FB8F1D;
+}
+
+
+

@@ -4,13 +4,12 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
-    padding-bottom: 1vw;
-    padding-top: 20px;
+    padding-bottom: 0.2vw;
     position: sticky;
     top: 0;
     z-index: 1;
     background-color: white;
+    opacity: 0.9;
 }
 
 header nav{
@@ -21,6 +20,7 @@ header nav{
     align-items: center;
     width: 95vw;
     height: 5vh;
+    margin-bottom: 5px;
 
 }
 
@@ -73,6 +73,7 @@ header .logo{
 .login-register{
     position: absolute;
     right: 0;
+    display: inline !important;
 
 }
 
@@ -90,6 +91,7 @@ header .logo{
     font-weight: 500;
     font-size: 16px;
     border-radius: 1vw;
+    margin-top: 10px;
 }
 
 .login{

@@ -25,6 +25,12 @@
     margin-left: 10vw;
     width: 25vw;
     height: 25vw;
+    -webkit-transition: all 1s ease-in-out;
+    transition: 1s ease-in-out;
+}
+
+.photo-top.active{
+    transform: translateX(-15vw) translateY(-20vh) rotate(-45deg);
 }
 
 .filling{
